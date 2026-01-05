@@ -1,0 +1,4 @@
+
+body{font-family:system-ui;background:#fff;color:#0f172a}
+.page{animation:fade .4s}
+@keyframes fade{from{opacity:0}to{opacity:1}}

@@ -1,0 +1,19 @@
+
+---
+import Schema from '../components/Schema.astro';
+const { title, schema } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{title}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/styles/style.css">
+<script defer data-domain="example.com" src="https://plausible.io/js/script.js"></script>
+<Schema schema={schema} />
+</head>
+<body>
+<slot />
+</body>
+</html>
